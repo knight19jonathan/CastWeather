@@ -1,3 +1,56 @@
-.body {
-    background-color: black;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(30deg,rgb(0, 36, 218), rgb(69, 50, 50));
+    color: white;
+    text-align: center;
+}
+.aside {
+    margin-left: 20px;
+    width: 350px;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+.search-input {
+    width: 400px;
+}
+.warning {
+    width: 400px;
+    margin-top: 10px;
+}
+
+.hero-banner {
+    
+    border-radius: 5px;
+    width: 700px;
+    margin-right: 0px;
+    margin-left: 20px;
+    padding: 20px 20px;
+    display: inline-block;
+    
+}
+.weather-outlook {
+    display: flex;
+    padding-top: 25px;
+    background: linear-gradient(30deg,rgb(0, 36, 218), rgb(69, 50, 50));
+    color: aliceblue;
+    
+}
+.card {
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 15px;
+    color: black;
+    
+}
+h3 {
+    margin: 5px;
+}
+.card p {
+    margin: 5px;
 }
